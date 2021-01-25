@@ -15,10 +15,10 @@
 (Youtube links)
 
 <a href="http://www.youtube.com/watch?v=uWozhgB1Ass" target="_blank">
-  <img alt="Dynamic wrinkles demo 1 (Unreal Engine 4, Character Creator 3, iClone)" src="http://img.youtube.com/vi/uWozhgB1Ass/0.jpg" width="450" />
+  <img alt="Dynamic wrinkles demo 1 (Unreal Engine 4, Character Creator 3, iClone)" src="http://img.youtube.com/vi/uWozhgB1Ass/0.jpg" width="370" />
 </a>
 <a href="http://www.youtube.com/watch?v=daqsdB_arvo" target="_blank">
-  <img alt="Dynamic wrinkles demo 2 (Unreal Engine 4, Character Creator 3, iClone)" src="http://img.youtube.com/vi/daqsdB_arvo/0.jpg" width="450" />
+  <img alt="Dynamic wrinkles demo 2 (Unreal Engine 4, Character Creator 3, iClone)" src="http://img.youtube.com/vi/daqsdB_arvo/0.jpg" width="370" />
 </a>
 
 ### Currently added wrinkles
