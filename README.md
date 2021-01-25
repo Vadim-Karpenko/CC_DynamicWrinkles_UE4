@@ -1,5 +1,5 @@
 # Dynamic Wrinkles system for Unreal Engine 4 & CC3\iClone characters.
-<a href="https://www.buymeacoffee.com/vadimkarpenko">
+<a href="https://www.buymeacoffee.com/vadimkarpenko" target="_blank">
   <img src="/README_ASSETS/support.svg?raw=true" width="140" />
 </a>
 
