@@ -9,7 +9,6 @@
 - [How it works?](#how-it-works)
 - [Requirements](#requirements)
 - [Installation](#installation)
-- [How to use](#how-to-use)
 
 ### Demo
 (Youtube links)
@@ -42,9 +41,6 @@ In short, on every time when curve of your face is changed the material function
 ### Installation
 - Clone or download this repository.
 - Move **DynamicWrinkles** folder from this repository into your **YourProject/Content** folder.
-
-
-### How to use
 - Open your **DynamicWrinkles** folder and locate **AddWrinkles_CC** material function, we'll need it later.
 
     <img src="/README_ASSETS/1.png?raw=true" width="800" />
