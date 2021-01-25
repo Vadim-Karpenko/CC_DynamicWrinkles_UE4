@@ -46,26 +46,38 @@ In short, on every time when curve of your face is changed the material function
 
 ### How to use
 - Open your **DynamicWrinkles** folder and locate **AddWrinkles_CC** material function, we'll need it later.
-    <img src="/README_ASSETS/1.png?raw=true" width="500" />
+
+    <img src="/README_ASSETS/1.png?raw=true" width="800" />
 - Go to **Content/CC_Shaders/SkinShader** and open **RL_HQSkin** material.
-    <img src="/README_ASSETS/2.png?raw=true" width="500" />
+
+    <img src="/README_ASSETS/2.png?raw=true" width="800" />
 - Locate the pin connected to the Normal input
-    <img src="/README_ASSETS/3.png?raw=true" width="500" />
+
+    <img src="/README_ASSETS/3.png?raw=true" width="800" />
 - Follow the pin to the bottom
-    <img src="/README_ASSETS/4.png?raw=true" width="500" />
+
+    <img src="/README_ASSETS/4.png?raw=true" width="800" />
 - Drag & Drop **AddWrinkles_CC** function from the **DynamicWrinkles** folder into this place and connect correspondingly.
-    <img src="/README_ASSETS/5.png?raw=true" width="500" />
+
+    <img src="/README_ASSETS/5.png?raw=true" width="800" />
 - Go to the place where your character is located and open Skeletal Mesh of your character.
-    <img src="/README_ASSETS/11.png?raw=true" width="500" />
+
+    <img src="/README_ASSETS/11.png?raw=true" width="800" />
 - At the left side of the screen locate the Material instance for character's head.
-    <img src="/README_ASSETS/12.png?raw=true" width="500" />
+
+    <img src="/README_ASSETS/12.png?raw=true" width="800" />
 - At the Material Instance enable the wrinkles option. Please note that default settings below will require configuration for each idividual character.
-    <img src="/README_ASSETS/14.png?raw=true" width="500" />
+
+    <img src="/README_ASSETS/14.png?raw=true" width="800" />
 - Now we need to create an Animation Blueprint for your character. Left click on your Skeletal mesh -> Create -> Anim Blueprint
-    <img src="/README_ASSETS/7.png?raw=true" width="600" />
-- In the Event Graph connect **Event Blueprint Update Animation** node with **Process Wrinkle Curves CC** node. Use "wrinkle" keyword to find it in the search.
-    <img src="/README_ASSETS/8.png?raw=true" width="600" />
+
+    <img src="/README_ASSETS/7.png?raw=true" width="800" />
+- In the Event Graph connect **Event Blueprint Update Animation** node with **Process Wrinkle Curves CC** node. Use "wrinkle" keyword to find it.
+
+    <img src="/README_ASSETS/8.png?raw=true" width="800" />
 - Connect **Self** node to the **Target** input.
-    <img src="/README_ASSETS/9.png?raw=true" width="600" />
+
+    <img src="/README_ASSETS/9.png?raw=true" width="800" />
 - Open the **AnimGraph** tab and drag & drop your animation (You can use for testing the animation from the Example folder). If the wrinkles on the face is barely visible in the preview window, it is possible that you need to tweak settings in the Material Instance of your head.
-    <img src="/README_ASSETS/10.png?raw=true" width="600" />
+
+    <img src="/README_ASSETS/10.png?raw=true" width="1000" />
