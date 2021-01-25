@@ -1,5 +1,7 @@
 ## Dynamic Wrinkles system for Unreal Engine 4 & CC3\iClone characters.
-[![Support me](/README_ASSETS/support.svg?raw=true)](https://www.buymeacoffee.com/vadimkarpenko)
+<a href="https://www.buymeacoffee.com/vadimkarpenko">
+  <img src="/README_ASSETS/support.svg?raw=true" width="140" />
+</a>
 
 - [Currently added wrinkles](#currently-added-wrinkles)
 - [How it works?](#how-it-works)
