@@ -74,6 +74,6 @@ In short, on every time when curve of your face is changed the material function
 - Connect **Self** node to the **Target** input.
 
     <img src="/README_ASSETS/9.png?raw=true" width="800" />
-- Open the **AnimGraph** tab and drag the animation, or you can use the animation from the Examples folder in this repository. If the wrinkles on the face is barely visible in the preview window, it is possible that you need to tweak settings in the Material Instance.
+- Open the **AnimGraph** tab and drag the animation, or use the [test animation](https://github.com/Vadim-Karpenko/CC_DynamicWrinkles_UE4/tree/master/Example) provided by this repository. If the wrinkles on the face is barely visible in the preview window, it is possible that you need to tweak settings in the Material Instance.
 
     <img src="/README_ASSETS/10.png?raw=true" width="1000" />
