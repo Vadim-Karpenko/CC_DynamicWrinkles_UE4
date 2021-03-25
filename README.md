@@ -62,10 +62,10 @@ In short, on every time when curve of your face is changed the material function
 - Enable the wrinkles. Settings below may require configuration later.
 
     <img src="/README_ASSETS/14.png?raw=true" width="800" />
-- Create an Animation Blueprint for your character. Left click on your Skeletal mesh -> Create -> Anim Blueprint
+- Create an Animation Blueprint for your character. Left click on your Skeletal mesh -> Create -> Anim Blueprint. Note that if you're planning to use new ARKit curves from CC 3.4, you probably already have Animation blueprint from <a href="https://forum.reallusion.com/476282/How-to-Animate-CC3--Character-with-Unreal-Live-Link-Face">this guide</a>
 
     <img src="/README_ASSETS/7.png?raw=true" width="800" />
-- In the Event Graph connect **Event Blueprint Update Animation** node with **Process Wrinkle Curves CC** node. Use "wrinkle" keyword to find it.
+- In the Event Graph connect **Event Blueprint Update Animation** node with **Process Wrinkle Curves CC** node. Use "wrinkle" keyword to find it. For the blueprint from ARKit 1:1, just place the node at the very end of the BP logic.
 
     <img src="/README_ASSETS/8.png?raw=true" width="800" />
 - Connect **Self** node to the **Target** input.
